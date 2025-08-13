@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enciclopédia dos Pinguins</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Models/style.css">
+  <script src="Controller/script.js" defer></script>
+</head>
+<body>
+  <header class="cabecalho text-center py-4 text-white">
+    <div class="container">
+      <h1>Enciclopédia dos Pinguins</h1>
+      <nav class="container my-4">
+        <select id="filtro-especie" class="form-select">
+          <option value="">Filtrar por espécie</option>
+          <option value="imperador">Pinguim Imperador</option>
+          <option value="adelia">Pinguim-de-Adélia</option>
+          <option value="macaroni">Pinguim Macaroni</option>
+          <option value="gentoo">Pinguim Gentoo</option>
+          <option value="africano">Pinguim Africano</option>
+          <option value="rei">Pinguim Rei</option>
+          <option value="galápagos">Pinguim-de-Galápagos</option>
+          <option value="magalhães">Pinguim-de-Magalhães</option>
+          <option value="humboldt">Pinguim Humboldt</option>
+          <option value="snares">Pinguim-de-Snares</option>
+          <option value="fiordland">Pinguim-de-Fiordland</option>
+          <option value="azul">Pinguim-Azul</option>
+          <option value="olhoamarelo">Pinguim-de-Olho-Amarelo</option>
+          <option value="crista">Pinguim-de-Crista-Ereta</option>
+          <option value="rockhopper">Pinguim Rockhopper</option>
+          <option value="barbicha">Pinguim-de-Barbicha</option>
+        </select>
+      </nav>
+      <a href="curiosidades.html" class="btn-curiosidades">Curiosidades</a>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container mb-4">
+    <h2>Bem-vindo à Enciclopédia dos Pinguins</h2>
+    <p style="text-align: justify;">O pinguim é uma ave pertencente à ordem Sphenisciformes, distribuída do continente Antártico até as ilhas Galápagos. Atualmente são descritas 18 espécies de pinguins, sendo todas elas incapazes de voar, mas excelentes nadadoras. Esses animais apresentam como adaptações ao nado a ausência de ossos pneumáticos, corpo com formato hidrodinâmico, presença de membranas interdigitais nas patas e asas adaptadas para a natação. Pinguins são aves e, portanto, apresentam características típicas desse grupo de animais, tais como a presença de penas e a ausência de dentes. A maioria das espécies de pinguins apresenta a coloração preta e branca, que ajuda na camuflagem. Esses animais servem de presa para focas, baleias, leões-marinhos e tubarões. Alimentam-se de pequenos peixes, crustáceos e moluscos, como lulas e polvos.</p>
+    
+    <img src="imagens/pinguim1.jpg" alt="Pinguim" class="d-block mx-auto mt-4 img-fluid" style="max-width: 500px;">
+<div class="container mt-5">
+  <div class="row align-items-center g-4">
+    <div class="col-md-6 text-center">
+      <a href="https://www.globalpenguinsociety.org/index.html#gps-track" target="_blank">
+        <img src="imagens/link.png" alt="Rastreamento GPS dos pinguins" class="img-fluid rounded shadow" style="width: 300px;" height="400px">
+      </a>
+    </div>
+    <div class="col-md-6">
+      <div class="p-4 bg-light rounded shadow" style="text-align: justify;">
+        <h4 class="mb-3">Acompanhe os pinguins em seu habitat natural!</h4>
+        <p>
+          A <strong>Global Penguin Society</strong> realiza o rastreamento via GPS dessas aves incríveis, permitindo que cientistas e o público explorem suas rotas de migração, comportamento e áreas de preservação.
+        </p>
+        <p>
+          <em>Clique na imagem ao lado para visitar a página oficial e descobrir mais.</em>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-2 text-center mb-3 mb-md-0">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="38" fill="#0D6EFD" stroke="#FFF" stroke-width="2"/>
+          <path d="M40 20C45 20 50 25 50 30C50 35 45 40 40 40C35 40 30 35 30 30C30 25 35 20 40 20Z" fill="#FFF"/>
+          <path d="M35 35C35 40 40 45 45 45C50 45 55 40 55 35" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
+          <path d="M25 30C25 50 40 60 40 60C40 60 55 50 55 30" stroke="#FFF" stroke-width="2"/>
+          <path d="M35 50L40 60L45 50" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="col-md-10">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <div class="mb-3 mb-md-0">
+            <h5 class="mb-1">Enciclopédia dos Pinguins</h5>
+            <p class="small mb-0">Seu guia completo sobre essas aves fascinantes</p>
+          </div>
+          <div class="text-center text-md-end">
+            <small>
+              © 2025 Enciclopédia dos Pinguins | Desenvolvido com 
+              <span class="text-danger">❤️</span> para amantes da natureza
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

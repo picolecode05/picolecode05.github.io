@@ -1,0 +1,117 @@
+
+    :root {
+      --azul-escuro: #1a3a6e;
+      --azul-medio: #3a6ea5;
+      --azul-claro: #c4d8f0;
+      --branco-gelo: #f0f7ff;
+      --destaque-amarelo: #ffd166;
+      --verde-oceano: #006d77;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--branco-gelo);
+      color: #333;
+    }
+    
+    .cabecalho {
+      background: linear-gradient(135deg, var(--azul-escuro), var(--azul-medio));
+      color: white;
+      padding: 3rem 0;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cabecalho h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .btn-voltar {
+      background-color: var(--destaque-amarelo);
+      color: var(--azul-escuro);
+      border: none;
+      padding: 10px 25px;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s;
+      margin-top: 15px;
+    }
+    
+    .btn-voltar:hover {
+      background-color: #ffc233;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .titulo-curiosidades {
+      color: var(--azul-escuro);
+      text-align: center;
+      margin-bottom: 2.5rem;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    
+    .titulo-curiosidades:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 3px;
+      background: var(--destaque-amarelo);
+    }
+    
+    .curiosidade-card {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      border-left: 5px solid var(--verde-oceano);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .curiosidade-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    .curiosidade-titulo {
+      color: var(--verde-oceano);
+      font-weight: 600;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .curiosidade-titulo i {
+      margin-right: 10px;
+      font-size: 1.5rem;
+    }
+    
+    .destaque {
+      color: var(--verde-oceano);
+      font-weight: 600;
+    }
+    
+    footer {
+      background-color: var(--azul-escuro);
+      color: white;
+      padding: 20px 0;
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+      .cabecalho h1 {
+        font-size: 2rem;
+      }
+      
+      .curiosidade-card {
+        padding: 20px;
+      }
+    }
+ 
