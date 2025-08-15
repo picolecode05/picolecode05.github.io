@@ -310,7 +310,7 @@ tabela: `
     azul: {
     nome: "Pinguim-Azul",
     imagem: "imagens/azul.jpg",
-    descricao: "OO pinguim-azul (Eudyptula minor) é encontrado nas regiões costeiras da Austrália e Nova Zelândia, onde vive tanto em áreas naturais quanto próximas a zonas urbanas. Apesar de sua capacidade de adaptação, enfrenta ameaças frequentes, como atropelamentos e a presença de predadores introduzidos, que colocam em risco sua segurança, especialmente durante a época de reprodução.",
+    descricao: "O pinguim-azul (Eudyptula minor) é encontrado nas regiões costeiras da Austrália e Nova Zelândia, onde vive tanto em áreas naturais quanto próximas a zonas urbanas. Apesar de sua capacidade de adaptação, enfrenta ameaças frequentes, como atropelamentos e a presença de predadores introduzidos, que colocam em risco sua segurança, especialmente durante a época de reprodução.",
     tabela: `
     <div class="table-responsive mt-4">
     <table class="table table-bordered table-hover">
@@ -468,4 +468,5 @@ document.getElementById('filtro-especie').addEventListener('change', function ()
         <img src="imagens/pinguim1.jpg" alt="Pinguim" class="d-block mx-auto mt-4 img-fluid" style="max-width: 500px;">
     `;
     }
+
 });
